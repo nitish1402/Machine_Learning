@@ -113,7 +113,7 @@ int main()
 		{
 			d[j]=0.0;
 		}
-		for(k=0;k<1;k++)
+		for(k=0;k<n;k++)
 		{
 			d[0]=hypo(h[k])-f[k];
 			for(j=1;j<7;j++)
